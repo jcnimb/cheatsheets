@@ -57,6 +57,28 @@ console.log('The value of a is ', a);
 ```
 
 
+## Data types
+
+Array: Numbered of data, each numbered starting with 0.
+
+```javascript
+var array = ['sam', 900, false];
+console.log('Name is ', array[0]);
+console.log('Age is ', array[1]);
+```
+
+Object: Like a "dictionary" list of definitions, consists of associated
+key and value pairs. Properties can be accessed with either `.` or
+`[]`.
+
+```javascript
+var myObj = {
+    name: 'Sam',
+    age: 900,
+};
+console.log('Name is ', myObj.name);
+console.log('Age is ', myObj['age']);
+```
 
 
 ## Conditionals
@@ -146,8 +168,8 @@ Return statement: Use to send data back to the caller.
 function addAndMultiply (a, b) {
     return a + b + (a * b);
 }
-var total = add(10, 5);
-var total2 = add(total, 100);
+var total = addAndMultiply(10, 5);
+var total2 = addAndMultiply(total, 100);
 console.log('Final calculation: ', total2);
 ```
 
@@ -179,10 +201,11 @@ Flow control: Loops can be prematurely exited with `break`, or skipped to the ne
 ```javascript
 var a = 0;
 while (true) {
+    a++;
     if (a > 10) {
         break;
     }
-    if (a == 3) {
+    if (a === 3) {
         continue;
     }
     console.log('a is ', a);
