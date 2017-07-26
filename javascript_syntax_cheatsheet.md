@@ -162,7 +162,7 @@ a += 1;
 a++;
 ```
 
-Ternery operator: shortcut "if-statement" into one line.
+Ternary operator: shortcut "if-statement" into one line.
 
 ```javascript
 var beverage = age > 21 ? 'beer' : 'soda';
@@ -196,13 +196,10 @@ switch (name) {
     case "pat":
         console.log("hi Pat!");
         break;
-    case "alex"
-    if (a > 10) {
+    case "alex":
+        console.log("hey there Alex!");
         break;
-    }
-    if (a == 3) {
-        continue;
-    }
-    console.log('a is ', a);
+    default:
+        consoe.log("Howdy stranger");
 }
 ```
