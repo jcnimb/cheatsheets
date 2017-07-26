@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="11in"
+   height="8.5in"
+   viewBox="0 0 279.4 215.9"
    version="1.1"
    id="svg8758"
    inkscape:version="0.92.1 r15371"
@@ -10347,7 +10347,8 @@
      inkscape:window-height="744"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     units="in" />
   <metadata
      id="metadata8755">
     <rdf:RDF>
@@ -10363,7 +10364,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-81.1)">
     <path
        d="M 8.2412008,17.085087 H 161.74222 v 0.230011 H 8.2412008 Z"
        style="fill:#eaecef;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277778"
