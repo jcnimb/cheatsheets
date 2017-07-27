@@ -2,11 +2,7 @@
 
 a cheatsheet by [michaelb](http://michaelb.org/)
 
-[PDF version for printing (TODO)](#)
-
-[ES6 cheatsheet (TODO)](#) (cutting edge new syntax)
-
-[jQuery cheatsheet (TODO)](#)
+[Arranged into a single page as a PDF](./javascript_syntax_cheatsheet.pdf)
 
 Useful for beginners to JS or programming to learn the core syntax of
 JavaScript. It's useful as a reference on learning *syntax*, that is the words and characters necessary to type out things in JavaScript.
